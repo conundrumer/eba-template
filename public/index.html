@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EthBlock.art</title>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #eee;
+        background: #121212;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html, body, #root, .container {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 8px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .topbar {
+      margin-bottom: 8px;;
+    }
+    .topbar div {
+      display: inline-block;
+    }
+    .main {
+      flex: 1;
+      display: flex;
+    }
+    .sidebar {
+      min-width: 200px;
+    }
+    .space {
+      height: 12px;
+    }
+    .widget {
+      margin-bottom: 4px;
+    }
+    .mod-input {
+      display: flex;
+      align-items: center;
+    }
+    .mod-input input[type='number'],input[type='color'] {
+      width: 60px;
+      margin-right: 4px;
+    }
+    .mod-input input[type='range'] {
+      width: 120px;
+    }
+    .canvas-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="main.js"></script>
+</body>
+</html>
