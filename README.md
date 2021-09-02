@@ -5,7 +5,7 @@ optimized for DX:
 - _you do not need to use react_*
 - bring your own library
 - live reloading
-- block number + parameters persist across reloads
+- block number + parameters persist across reloads**
 - controls for changing dimensions
 - you have access to blocks from api so you can test any block without testing on ethblock.art
 - blocks from api are optimistically loaded so you can quickly browse without waiting for api requests
@@ -13,6 +13,8 @@ optimized for DX:
 - light/dark theme based on system settings :)
 
 *Blockstyles are required to be React components, but this template is designed so you can avoid dealing with React. Just keep everything contained in CustomRenderer
+
+**Did you come across a block or parameter value that keeps crashing everything? Enter `sessionStorage.clear()` to manually reset persisted state!
 
 ## getting started
 
